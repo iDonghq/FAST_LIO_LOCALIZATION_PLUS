@@ -1,7 +1,7 @@
 # Introduction
 The repo is pure localization for fastlio with given initial pose from rviz,
 ## DEMO
-https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/a58d2e9c-12cb-4efa-84b5-a8dac1df0324
+https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/5c0370d9-cbb6-41ee-b7e5-4cfc86806a35
 
 # Convergence and Map Bending
 ## CONVERGENCE
@@ -14,9 +14,10 @@ https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/d18ee041-6
 Not enough observations in the z direction from lidar leads to the map bending to z direction. In the following fig, the number of normal vector, which is the normal of plane fitted by neraby points, in the same as gravity direction is counted
 ![output](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/07f1a65a-04cf-4c6f-8d0a-e5c992237376)
 Correspondingly to the generted map is:
-![output (1)](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/ed9d9090-c26f-4bc9-8066-f591b10a7a80)
+![Selection_033](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/492f57c2-8a5e-4ae6-a908-fe675f4e73b6)
 In  **FAST_LIO_LOCALIZATION_PLUS** mapping, the number of plane's normal fitted by neraby points is monitored, the it is less than the threshhold, I set the translation **z=0** from pose, the result is:
-![new_sides](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/8eba522d-3adc-40cb-b145-83578d6e9fcd)
+![Selection_034](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/f90f98fe-d1d6-41a6-b13a-93c30c38401b)
+
 
 
 # BUILD and DEPENDENCE 
@@ -24,7 +25,7 @@ The BUILD and DEPENDENCE is completely the same as [fastlio-Prerequisites](https
 
 # RUN
 ## MAPPING
-1. roslaunch fast_lio mapping_avia.launch(*It is slightly different from the fastlio*)
+1. roslaunch fast_lio mapping_avia.launch (*It is slightly different from the fastlio*).
 2. Using [FASTLIO](https://github.com/hku-mars/FAST_LIO), and then copy the generted map into **FAST_LIO_LOCALIZATION_PLUS/PCD**
 ## LOCALIZATION
 1. roslaunch fast_lio localization_avia.launch
