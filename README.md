@@ -40,7 +40,8 @@ The BUILD and DEPENDENCE is completely the same as [fastlio-Prerequisites](https
 
 
 # NOTE !!!
- 1. Using **FAST_LIO_LOCALIZATION_PLUS** mapping, please set param **is_vehicle = false** in **avia.yaml** file if your robot is UAV.
- 2. if your robot is vehicle, set the param **is_vehicle** true or not, it's up to your demands.
+ 1. **In order to finish the initialization faster and more accuracy, the initial pose from rviz should be strictly limited within the area of 1 square meter(x*y).**
+ 2. Using **FAST_LIO_LOCALIZATION_PLUS** mapping, please set param **is_vehicle = false** in **avia.yaml** file if your robot is UAV.
+ 3. if your robot is vehicle, set the param **is_vehicle** true or not, it's up to your demands.
 
 *Thanks Very Much To SHANGHAI TENGHAOSHIXIAN Tech For Providing ALL Datasets.*
