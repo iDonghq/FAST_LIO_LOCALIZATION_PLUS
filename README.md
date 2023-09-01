@@ -1,5 +1,5 @@
 # Introduction
-The repo is pure localization for fastlio with given initial pose from rviz,
+The repo is pure localization for [FASTLIO](https://github.com/hku-mars/FAST_LIO) with given initial pose from rviz. It's completely developed in c++，and the usage is very easy. 
 ## DEMO
 https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/5c0370d9-cbb6-41ee-b7e5-4cfc86806a35
 
@@ -11,7 +11,7 @@ Thanks to the robust of [FASTLIO](https://github.com/hku-mars/FAST_LIO), in the 
 https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/d18ee041-649b-4b39-9082-54fa4fa4a5e5
 
 # MAP BENDING
-Not enough observations in the z direction from lidar leads to the map bending to z direction. In the following fig, the number of normal vector, which is the normal of plane fitted by neraby points, in the same as gravity direction is counted
+Not enough observations in the z direction from lidar leads to the map bending to z direction. In the following fig, the number of normal vector, which is the normal of plane fitted by neraby points, in the same as gravity direction is counted. The following pic shows that fewer and fewer z-axis observations with  the vehicle moves. 
 ![output](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/07f1a65a-04cf-4c6f-8d0a-e5c992237376)
 Correspondingly to the generted map is:
 ![Selection_033](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/492f57c2-8a5e-4ae6-a908-fe675f4e73b6)
@@ -31,6 +31,8 @@ The BUILD and DEPENDENCE is completely the same as [fastlio-Prerequisites](https
 1. roslaunch fast_lio localization_avia.launch
 2. give the initial pose from rviz **2D Nav Goal** , otherwise, the hints '**** wait for initial pose'
 ![Selection_029](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/a93c8700-27ab-4353-9080-50cc1c3b6a93)
+
+
 
 # NOTE !!!
  1. Using **FAST_LIO_LOCALIZATION_PLUS** mapping, please set param **is_vehicle = false** in **avia.yaml** file if your robot is UAV.
