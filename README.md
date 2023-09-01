@@ -3,6 +3,11 @@ The repo is pure localization for [FASTLIO](https://github.com/hku-mars/FAST_LIO
 ## DEMO
 https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/5c0370d9-cbb6-41ee-b7e5-4cfc86806a35
 
+
+https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/021bc6ec-9c35-4cdc-be67-bc0f195b61e3
+
+
+
 # Convergence and Map Bending
 ## CONVERGENCE
 Thanks to the robust of [FASTLIO](https://github.com/hku-mars/FAST_LIO), in the following video the initial pose that deviates greatly from the true one is given, **FAST_LIO_LOCALIZATION_PLUS** can also quickly converge to near the truth value.
