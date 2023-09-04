@@ -20,7 +20,7 @@ Not enough observations in the z direction from lidar leads to the map bending t
 ![output](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/07f1a65a-04cf-4c6f-8d0a-e5c992237376)
 Correspondingly to the generted map is:
 ![Selection_033](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/492f57c2-8a5e-4ae6-a908-fe675f4e73b6)
-In  **FAST_LIO_LOCALIZATION_PLUS** mapping, the number of plane's normal fitted by neraby points is monitored, the it is less than the threshhold, I brutely set the translation **z=0** from pose, the result is:
+In  **FAST_LIO_LOCALIZATION_PLUS** mapping, the number of plane's normal fitted by neraby points is monitored, which is less than the threshhold I set, I brutely set the translation **z=0** from pose, the result is:
 ![Selection_034](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS/assets/23080413/f90f98fe-d1d6-41a6-b13a-93c30c38401b)
 
 
